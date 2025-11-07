@@ -100,7 +100,10 @@
         "text_encoding": "cpp",
         "generator": "cpp",
         "flat_map": "cpp",
-        "flat_set": "cpp"
+        "flat_set": "cpp",
+        "print": "cpp",
+        "stdfloat": "cpp",
+        "ccpc2025_p_3cpp": "cpp"
     },
     "python.REPL.enableREPLSmartSend": false
 }

@@ -14,7 +14,21 @@
 //     std::cout << &a << std::endl;
 //     // std::cout << &test[1] << std::endl;
 // }
+#include <string>
 #include <iostream>
+struct Node{
+    int val;
+    std::string str;
+    Node(int val,std::string str):val(val),str(str){}
+    friend std::ostream& operator<<(std::ostream& os,Node& node){
+        os << node.str << " " << node.val;
+        return os;
+    }
+};
 int main(void){
-    std::cout << "this is a test file" << std::endl;
+    // Node node(10,"bai-yu");
+    Node node{10,"baiyu"};
+
+    std::cout << node << std::endl;
+    
 }
