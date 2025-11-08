@@ -4,9 +4,11 @@ public:
         if(k == 1) return 1;
         if(k % 2 == 0 ) return -1;
         if(k % 5 == 0) return -1;
-        int SIZE = 1000;
+        int SIZE = 1000000;
+        int cur = 0;
         for(int i = 1;i < SIZE;i++){
-            
+            cur = (cur * 10 + 1) % k;
+            if(cur == 0) return i;
         }
         return -1;
     }
