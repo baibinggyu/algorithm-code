@@ -1,0 +1,1 @@
+SELECT score , ROW_NUMBER() OVER (ORDER BY score DESC) AS "rank" FROM Scores;
