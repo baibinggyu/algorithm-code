@@ -1,0 +1,35 @@
+// 疑似java超时，换c++
+import java.util.ArrayList;
+import java.util.Scanner;
+public class P4759{
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+		int t = sc.nextInt();
+		StringBuilder sb = new StringBuilder(1 << 20);
+		while(t-- > 0){
+			int n = sc.nextInt();
+			int pre = -1;
+			int size = -1;
+			for(int i = 2;i <= n / 2;i++){
+				int num = 2 * n - i * i + i;
+				int den = 2 * i;
+				int cur = num / den;
+				if((num > 0) && ((num % den) == 0) && (pre < cur)) {
+					pre = cur;
+					size = i;	
+				}
+			}
+			if(pre == -1){
+				sb.append("IMPOSSIBLE").append('\n');
+			}else{
+				sb.append(n + " = ");
+				sb.append(pre);
+				for(int i = 1;i < size;i++)
+					sb.append(" + " + (pre + i));
+				sb.append('\n');
+			}
+		}				
+		System.out.print(sb);
+		sc.close();
+	}
+}
