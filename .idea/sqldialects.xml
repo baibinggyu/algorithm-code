@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/sql/1045.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/1050.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/1068.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/1070.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/1075.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/1084.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/1141.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/1148.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/1158.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/1164.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/1174.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/1179.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/1193.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/1204.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/1204_value.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/1211.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/1251.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/1280.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/1321.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/1327.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/1341.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/1378.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/1393.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/627.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/P1193.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/temp.sql" dialect="GenericSQL" />
+  </component>
+</project>
