@@ -1,3 +1,4 @@
+package main
 package algorithm_code
 
 type TreeNode struct {
@@ -29,7 +30,7 @@ func bfs(cur *TreeNode, curSum int, targetSum int, arr []int, res *[][]int) {
 			path := make([]int, len(arr))
 			copy(path, arr)
 			path = append(path, cur.Val)
-			*res = append(*res,path
+			*res = append(*res,path)
 		}
 		return
 	}
