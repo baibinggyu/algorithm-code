@@ -1,0 +1,84 @@
+# =================== IDE & Editor ===================
+.idea/
+.vscode/
+.vs/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+
+# =================== Temp & Test ===================
+temp.*
+test.*
+*.tmp
+*.bak
+
+# =================== Compiled Executables ===================
+*.exe
+*.out
+a.out
+*.o
+*.obj
+*.ilk
+*.pdb
+*.lib
+*.dll
+*.so
+*.dylib
+
+# =================== Build & Output ===================
+build/
+output/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+
+# =================== Precompiled Headers ===================
+*.gch
+*.pch
+
+# =================== Python ===================
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# =================== Java ===================
+*.class
+*.jar
+*.war
+
+# =================== Node.js ===================
+node_modules/
+package-lock.json
+
+# =================== OS Files ===================
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# =================== Debug Symbols ===================
+*.pdb
+*.idb
+*.db
+*.suo
+*.user
+*.ncb
+
+# =================== Logs ===================
+*.log
+
+# =================== Archive ===================
+*.zip
+*.tar.gz
+*.rar
+*.7z
